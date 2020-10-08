@@ -7,9 +7,84 @@
          url('../fonts/ProximaNovaRegular.svg#webfont') format('svg');
  }
  body{
-     background-color: #464f54;
+     background-color: #8a7e7e;
+     padding: 0;
+     margin: 0;
  }
  #bg-heder{
      width: 1000px;
+     height: 700px;
      margin: 0 auto;
+     background-color: #464f54;
+ }
+ .heder-top{
+     background-color: black;
+     width: 700px;
+     margin-left: 300px;
+     display: block;
+     position: absolute;
+     margin-top: 20px;
+     z-index: 3;
+ }
+ .title{
+     color :silver;
+     font-size: 15px;
+     letter-spacing: 3px;
+     padding-left: 40px;
+     font-family: monospace;
+     
+ }
+ .text-like{
+     color: white;
+     font-size: 40px;
+     padding-left: 40px;
+     
+ }
+ p{
+     padding: 0px;
+     margin: 0;
+ }
+ hr{
+     color: silver;
+     margin-left: 40px;
+ }
+ .icon{
+     background-color: orange;
+     width: 650px;
+     position: absolute;
+     margin-top: 103px;
+     margin-left: 350px;
+     z-index: 3;
+ }
+ .content{
+     background-color: white;
+     width: 900px;
+     height: 500px;
+     position: absolute;
+     margin-top: 60px;
+     margin-left: 50px;
+     z-index: 1;
+ }
+ .title-content{
+    color :silver;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding-left: 60px;
+    font-family: monospace;
+    margin-top: 90px;
+ }
+ .title-big{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    padding-left: 60px;
+    color: #2a2a2a;
+    font-family: sans-serif;
+ }
+ .title-content-silver{
+    color :silver;
+    font-size: 18px;
+    padding-left: 60px;
+    font-family: monospace;
+   
  }
