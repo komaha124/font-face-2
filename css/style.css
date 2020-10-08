@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaRegular.eot');
+    src: url('../fonts/ProximaNovaRegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNovaRegular.woff') format('woff'),
+         url('../fonts/ProximaNovaRegular.ttf') format('truetype'),
+         url('../fonts/ProximaNovaRegular.svg#webfont') format('svg');
+ }
+ body{
+     background-color: #464f54;
+ }
+ #bg-heder{
+     width: 1000px;
+     margin: 0 auto;
+ }
