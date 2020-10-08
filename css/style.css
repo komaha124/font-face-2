@@ -13,31 +13,33 @@
  }
  #bg-heder{
      width: 1000px;
-     height: 700px;
+     height: 600px;
      margin: 0 auto;
      background-color: #464f54;
  }
  .heder-top{
      background-color: black;
-     width: 700px;
+     width: 660px;
      margin-left: 300px;
      display: block;
      position: absolute;
      margin-top: 20px;
      z-index: 3;
+     padding-left: 40px;
+     height: 120px;
  }
  .title{
      color :silver;
      font-size: 15px;
      letter-spacing: 3px;
-     padding-left: 40px;
+     padding-top: 20px;
      font-family: monospace;
      
  }
  .text-like{
      color: white;
      font-size: 40px;
-     padding-left: 40px;
+     
      
  }
  p{
@@ -45,16 +47,17 @@
      margin: 0;
  }
  hr{
-     color: silver;
-     margin-left: 40px;
+    color: #303030;
+    height: 1px;
  }
  .icon{
      background-color: orange;
      width: 650px;
      position: absolute;
-     margin-top: 103px;
+     margin-top: 140px;
      margin-left: 350px;
      z-index: 3;
+     height: 40px;
  }
  .content{
      background-color: white;
@@ -64,6 +67,7 @@
      margin-top: 60px;
      margin-left: 50px;
      z-index: 1;
+     
  }
  .title-content{
     color :silver;
@@ -71,7 +75,7 @@
     letter-spacing: 3px;
     padding-left: 60px;
     font-family: monospace;
-    margin-top: 90px;
+    margin-top: 110px;
  }
  .title-big{
     text-transform: uppercase;
@@ -83,8 +87,32 @@
  }
  .title-content-silver{
     color :silver;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 60px;
-    font-family: monospace;
-   
+    font-family: system-ui;
+    font-style: italic;
  }
+ .text{
+    padding-left: 60px;
+    font-size: 20px;
+    width: 670px;
+    margin-top: 10px;
+ }
+ span{
+    font-style: italic;
+ }
+ .fa{
+     color: white;
+     padding: 12px;
+     opacity: 0.6;
+     
+ }
+ .linea{
+    margin-left: 67px;
+    border-left: 2px solid #e8eced;
+    height: 89%;
+    padding-top: 53px;
+ }
+.fa:hover{
+    opacity: 1;
+}
